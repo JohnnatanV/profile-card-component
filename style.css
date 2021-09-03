@@ -15,7 +15,7 @@ body {
   background: url(./images/bg-pattern-top.svg),
     url(./images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: -150px -120px, 150px 550px;
+  background-position: 8.33rem 6.66rem, 8.33rem 30.55rem;
   background-size: 95%, 95%;
   background-color: hsl(185, 75%, 39%);
 }
@@ -33,7 +33,7 @@ body {
 
 /* MAIN */
 .container {
-  width: 350px;
+  width: 19.4rem;
   display: flex;
 
   align-items: center;
@@ -43,31 +43,31 @@ body {
 }
 
 .card {
-  margin: 95px;
-  margin-bottom: 30px;
+  margin: 5.27rem;
+  margin-bottom: 1.66rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .card__photo {
-  width: 90px;
+  width: 5rem;
   border-radius: 100%;
 }
 
 .card__profile {
-  margin: 25px 0;
+  margin: 1.389rem 0;
 }
 
 .card__profile-name,
 .card__profile-age {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 0.278rem;
 }
 
 .card__profile-country {
   text-align: center;
-  margin-top: 5px;
+  margin-top: 0.278rem;
   font-size: 0.9em;
 }
 
@@ -84,8 +84,8 @@ body {
 }
 
 .card__stats-post {
-  font-weight: 600;
-  line-height: 25px;
+  font-weight: 700;
+  line-height: 1.38rem;
 }
 
 .card__stats-post p {
@@ -114,7 +114,7 @@ body {
     background: url(./images/bg-pattern-top.svg),
       url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: -100px -180px, 350px 650px;
+    background-position: -5.55rem -10rem, 19.44rem 36.11rem;
     background-size: 80%, 80%;
     background-color: hsl(185, 75%, 39%);
   }
@@ -131,41 +131,8 @@ body {
     background: url(./images/bg-pattern-top.svg),
       url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: -500px -500px, 550px 500px;
+    background-position: -27.77rem -27.77rem, 30.55rem 27.77rem;
     background-size: 80%, 80%;
     background-color: hsl(185, 75%, 39%);
   }
 }
-
-/* 
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-Dark cyan: hsl(185, 75%, 39%)
-Very dark desaturated blue: hsl(229, 23%, 23%)
-Dark grayish blue: hsl(227, 10%, 46%)
-
-### Neutral
-
-Dark gray: hsl(0, 0%, 59%)
-
-## Typography
-
-### Body Copy
-
-- Font size (name and stats): 18px
-
-### Font
-
-- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
-- Weights: 400, 700
-
-*/
