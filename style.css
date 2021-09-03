@@ -53,6 +53,7 @@ body {
 .card__photo {
   width: 5rem;
   border-radius: 100%;
+  border: 5px solid hsl(0, 0%, 100%);
 }
 
 .card__profile {
