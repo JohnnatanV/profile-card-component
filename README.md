@@ -22,8 +22,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Screenshot
 
 ![Desktop](/Finish-Project/profile-desktop-screen.png)
-![Tablet](/Finish-Project/profile-desktop-screen.png)
-![Mobile](/Finish-Project/profile-desktop-screen.png)
+![Tablet](/Finish-Project/profile-tablet-screen.png)
+![Mobile](/Finish-Project/profile-mobile-screen.png)
 
 ### Links
 
