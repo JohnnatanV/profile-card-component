@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -150px -120px, 150px 550px;
+  background-size: 95%, 95%;
+  background-color: hsl(185, 75%, 39%);
+}
+
+h1 {
+  color: transparent;
+}
+
+/* MAIN */
+.container {
+  width: 350px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  background: url(./images/bg-pattern-card.svg) no-repeat #fff;
+  border-radius: 18px;
+}
+
+.card {
+  margin: 95px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__photo {
+  width: 90px;
+  border-radius: 100%;
+}
+
+.card__profile {
+  margin: 25px 0;
+}
+
+.card__profile-name,
+.card__profile-age {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.card__profile-country {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+.card__profile-age,
+.card__profile-country {
+  color: hsl(227, 10%, 46%);
+}
+
+.card__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 110px);
+  grid-template-rows: auto;
+  text-align: center;
+}
+
+.card__stats-post {
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.card__stats-post p {
+  font-weight: normal;
+  font-size: 0.7em;
+  color: hsl(0, 0%, 59%);
+}
+
+/* FOOTER */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: url(./images/bg-pattern-top.svg),
+      url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -100px -180px, 350px 650px;
+    background-size: 80%, 80%;
+    background-color: hsl(185, 75%, 39%);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: url(./images/bg-pattern-top.svg),
+      url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -500px -500px, 550px 500px;
+    background-size: 80%, 80%;
+    background-color: hsl(185, 75%, 39%);
+  }
+}
+
+/* 
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+
+## Typography
+
+### Body Copy
+
+- Font size (name and stats): 18px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700
+
+*/
